@@ -1,0 +1,112 @@
+/* -----------------------------------------------
+GENERAL 
+-------------------------------------------------*/
+body {
+	background: #2F3440;
+	color: white;
+	border: 5px solid #F5E5C0;
+	margin: 20px;
+	padding: 50px 50px 0 50px;
+	font-family: 'Merriweather', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+hr {
+	border: 0;
+	border-bottom: 2px solid #C6F4ED;
+}
+
+/* -----------------------------------------------
+TYPOGRAPHY 
+-------------------------------------------------*/
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 30px;
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 22px;
+	margin-bottom: 0;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+a,
+a:hover {
+	color: #EA6045;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a,
+nav strong {
+	padding: 10px;
+}
+
+/* -----------------------------------------------
+HEADER
+-------------------------------------------------*/
+header img {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* -----------------------------------------------
+NAV
+-------------------------------------------------*/
+nav {
+	padding: 10px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+
+/* -----------------------------------------------
+FOOTER
+-------------------------------------------------*/
+footer {
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	padding: 20px;
+}
+
+footer hr {
+	margin-bottom: 20px;
+}
+
+/* -----------------------------------------------
+PORTFOLIO
+-------------------------------------------------*/
+li img {
+	width: 600px;
+}
+
+#portfolio {
+	margin-top: 45px;
+	list-style: none;
+	padding-left: 0;
+}
+
+#portfolio li {
+	margin-bottom: 50px;
+}
+
+#portfolio p {
+	margin-bottom: 30px;
+}
