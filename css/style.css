@@ -9,13 +9,22 @@ body {
   background: #FFFFFF;
 
 }
-div{
+.top {
   background-color: #778899;
+}
+.bottom {
+  text-align: center;
+}
+.top2 {
+  background-color: #778899
+}
+.bottom2 {
+  padding: 0px;
+  margin: 30px;
 }
 
 a {
   font-weight: bold;
-  color: #05080C;
 }
 
 small {
@@ -23,7 +32,6 @@ small {
 }
 
 strong {
-  color: #030609;
   font-style: italic;
 }
 
@@ -102,4 +110,6 @@ img[alt] {
 nav {
   color: #FFFFFF;
   text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
